@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<form action="">
+    <legend>STUDENT INFORMATION</legend>
+    <br>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" placeholder="firstname" required="required">
+    <br><br>
+
+    <label for="sname">Surname:</label>
+    <input type="text" id="sname" placeholder="Surname" required="required">
+    <br><br>
+
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" email placeholder="vin@gmail.com">
+
+    <br><br>
+
+    <label for="pwd">password:</label>
+    <input type="password" id="pwd" placeholder="my password" required="required">
+    <p>choose a programming language:</p>
+    <input type="radio" id="python">
+    <label for="python">python</label><br>
+    <input type="radio" id="PHP">
+    <label for="php">PHP</label><br>
+     <input type="radio" id="java">
+    <label for="java">java</label><br><br>
+    <p>choose your favourite game</p>
+    <input type="checkbox" id="football">
+    <label for="football">football</label><br>
+     <input type="checkbox" id="tennis">
+    <label for="tennis">Tennis</label><br>
+    <input type="checkbox" id="hockey">
+    <label for="hockey">Hockey</label><br><br>
+
+    <label for="nationality">nationality</label>
+    <select name="" id="nationality">
+        <option value="choose" disabled="disabled">--Choose nationality---</option>
+        <option value="kenyan">Kenyan</option>
+        <option value="american">American</option>
+       <option value="tanzanian">Tanzanian</option>
+    </select><br><br>
+
+    <label for="file">choose a file</label>
+    <input type="file"submit id="file" required="required"><br><br>
+
+    <label for="yob">Year of birth:</label>
+    <input type="date" id="yob" required="required"><br><br>
+
+    <label for="person">Describe yourself:</label><br><br>
+    <textarea name=""  placeholder="type here" id="" cols="40" rows="10"></textarea><br><br>
+
+    <button type="submit">submit</button>
+
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
